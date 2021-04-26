@@ -1,0 +1,13 @@
+name: lms-environment
+
+channels: 
+  - conda-forge
+
+dependencies:
+  - numpy
+  - matplotlib
+  - pymc3
+  - pip:
+    - pymc3-ext
+    - corner
+    - arviz
