@@ -4,10 +4,11 @@ channels:
   - conda-forge
 
 dependencies:
-  - numpy
-  - matplotlib
   - pymc3
   - pip:
+    - matplotlib
+    - numpy
     - pymc3-ext
     - corner
     - arviz
+    - Pillow
